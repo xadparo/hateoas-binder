@@ -1,6 +1,6 @@
 {
   "name": "hateoas-binder",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "src/index.js",
   "repository": "https://github.com/xadparo/hateoas-binder.git",
   "author": "xadparo <45482148+xadparo@users.noreply.github.com>",
