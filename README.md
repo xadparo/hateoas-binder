@@ -1,4 +1,4 @@
-# HATEOAS Parser
+# HATEOAS Binder
 
 이 프로젝트는 "HATEOAS가 적용 된 Resource"를 파싱해주는 클라이언트용 라이브러리 입니다.  
 HATEOAS는 개념적으로만 제안 되었으며, 표준규격이 존재하지 않지만 이 라이브러리에서는 이하에서 설명하는 전제를 따릅니다.
