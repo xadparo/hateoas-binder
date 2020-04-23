@@ -1,8 +1,8 @@
 {
-  "name": "hateoas-parser",
+  "name": "hateoas-binder",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/xadparo/hateoas-parser.git",
+  "repository": "https://github.com/xadparo/hateoas-binder.git",
   "author": "xadparo <45482148+xadparo@users.noreply.github.com>",
   "license": "MIT"
 }
