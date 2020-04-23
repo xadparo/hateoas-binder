@@ -1,3 +1,5 @@
+var _ = require('lodash')
+
 function extractPathByExpression(expression) {
   var [, $1] = expression.match(/\{(.{0,})\}/)
   return $1
@@ -8,8 +10,8 @@ function findTargetByPath($, path) {
     if(key === '$')
       return $
 
-    if (Array.isArray(point)) {
-      return point.map(sub => sub[key])
+    if (_.isArray(point)) {
+      return _.flatMapDeep(sub => sub[key])
     } else {
       return point[key]
     }
