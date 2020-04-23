@@ -33,7 +33,7 @@ function convertExpression(expression, value) {
   return expression.replace(/(\{.{0,}\})/, value)
 }
 
-function parse($) {
+function bind($) {
   var { _links } = $
 
   for(var name in _links) {
@@ -56,4 +56,4 @@ function parse($) {
   }
 }
 
-module.exports = parse
+module.exports = bind
