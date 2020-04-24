@@ -1,7 +1,7 @@
 var _ = require('lodash')
 
 function extractPathByExpression(expression) {
-  var [, $1] = expression.match(/\{(.{0,})\}/)
+  var [, $1] = expression.match(/\{(.{0,})\}/) || []
   return $1
 }
 
