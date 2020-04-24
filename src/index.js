@@ -6,7 +6,7 @@ function extractPathByExpression(expression) {
 }
 
 function findTargetByPath($, path) {
-  return path.split('.').reduce((point, key) => {
+  return (typeof path === 'string') && path.split('.').reduce((point, key) => {
     if(key === '$')
       return $
 
