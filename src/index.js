@@ -46,12 +46,6 @@ function bind($) {
         , hrefs = findTargetByExpression($, href)
 
       targets.forEach((target, idx) => {
-        if ((rels[idx] === void 0) || (rels[idx] === null)) {
-          return 
-        }
-        if ((hrefs[idx] === void 0) || (hrefs[idx] === null)) {
-          return
-        }
         bindLinkToObject(target, name, {
           rel: convertExpression(rel, rels[idx]),
           href: convertExpression(href, hrefs[idx]),
