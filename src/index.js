@@ -15,7 +15,7 @@ function findTargetByPath($, path) {
     } else {
       return point[key]
     }
-  }, null)
+  }, $)
 }
 
 function findTargetByExpression($, expression) {
