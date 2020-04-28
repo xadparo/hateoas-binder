@@ -11,7 +11,7 @@ function findTargetByPath($, path) {
       return $
 
     if (_.isArray(point)) {
-      return _.flatMapDeep(point, sub => sub[key])
+      return _.map(point, sub => sub[key])
     } else {
       return point[key]
     }
