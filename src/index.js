@@ -30,6 +30,9 @@ function bindLinkToObject(obj, name, link) {
   links[name] = link
 }
 function convertExpression(expression, value) {
+  if(_.isArray(value)) {
+    return value.map(sub => convertExpression(expression, sub))
+  }
   return expression.replace(/(\{.{0,}\})/, value)
 }
 
