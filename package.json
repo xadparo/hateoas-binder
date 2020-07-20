@@ -6,6 +6,6 @@
   "author": "xadparo <45482148+xadparo@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
